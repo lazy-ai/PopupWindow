@@ -1,5 +1,5 @@
 # PopupWindow
-
+![样例图](https://github.com/lazy-ai/PopupWindow/blob/master/TIM%E6%88%AA%E5%9B%BE20191203195854.png?raw=true)
 ```
  private PopupWindowList mPopupWindowList;
     private void showPopWindows(View view, boolean self, ChatBean chatBeanDB){
