@@ -1,5 +1,6 @@
 # PopupWindow
 
+```
  private PopupWindowList mPopupWindowList;
     private void showPopWindows(View view, boolean self, ChatBean chatBeanDB){
         List<String> dataList = new ArrayList<>();
@@ -22,7 +23,11 @@
             }
         });
     }
+    
+```
   +
+  
+```
     int[] location = new int[2];
     view.getLocationOnScreen(location);
     float OldListY = (float) location[1];
@@ -43,3 +48,5 @@
         }
     });
     tipView = tipViewBuilder.create();
+
+```
